@@ -1,0 +1,9 @@
+# E02 最小模型运行环境；与现有数据环境一起复现。
+-r requirements-data.txt
+scikit-learn==1.9.1
+joblib==1.6.0
+numpy==2.5.4
+scipy==1.18.1
+cloudpickle==3.1.2
+narwhals==2.27.1
+threadpoolctl==3.7.0

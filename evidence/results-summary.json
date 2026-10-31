@@ -1,0 +1,276 @@
+{
+  "date": "2026-10-31",
+  "scope": "saved exploratory validation summary; no new fits or evaluation",
+  "labeled_applications": 307511,
+  "split": {
+    "train": 215257,
+    "validation": 46127,
+    "reserved_test": 46127
+  },
+  "formal_fits_in_original_exploration": 32,
+  "CV_fits": 30,
+  "final_fits": 2,
+  "validation": {
+    "original_saved_tree": {
+      "rows": 46127,
+      "events": 3724,
+      "event_rate": 0.08073362672621241,
+      "roc_auc": 0.6760664505705863,
+      "ks": 0.2543673761201816,
+      "brier_score": 0.0717156718767371,
+      "threshold": {
+        "scope": "validation_only",
+        "rule": "max_ks_tie_highest_finite_threshold",
+        "value": 0.07483150970528418,
+        "TP": 2492,
+        "FP": 17589,
+        "TN": 24814,
+        "FN": 1232,
+        "precision": 0.12409740550769384,
+        "recall": 0.6691729323308271,
+        "false_positive_rate": 0.41480555621064547,
+        "selected_fraction": 0.4353415570056583,
+        "meaning": "classroom risk flag only; not lending approval or economic optimality"
+      },
+      "calibration_bins": [
+        {
+          "bin": 0,
+          "rows": 34360,
+          "mean_prediction": 0.05861280217796965,
+          "event_fraction": 0.056839348079161814
+        },
+        {
+          "bin": 1,
+          "rows": 10502,
+          "mean_prediction": 0.13320652178390116,
+          "event_fraction": 0.1377832793753571
+        },
+        {
+          "bin": 2,
+          "rows": 1170,
+          "mean_prediction": 0.2313787127467883,
+          "event_fraction": 0.252991452991453
+        },
+        {
+          "bin": 3,
+          "rows": 85,
+          "mean_prediction": 0.33598428270533726,
+          "event_fraction": 0.2823529411764706
+        },
+        {
+          "bin": 4,
+          "rows": 10,
+          "mean_prediction": 0.44177333998228285,
+          "event_fraction": 0.4
+        },
+        {
+          "bin": 5,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_fraction": null
+        },
+        {
+          "bin": 6,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_fraction": null
+        },
+        {
+          "bin": 7,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_fraction": null
+        },
+        {
+          "bin": 8,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_fraction": null
+        },
+        {
+          "bin": 9,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_fraction": null
+        }
+      ]
+    },
+    "fresh_original40": {
+      "rows": 46127,
+      "events": 3724,
+      "event_rate": 0.08073362672621241,
+      "roc_auc": 0.6760664505705863,
+      "ks": 0.2543673761201816,
+      "brier_score": 0.0717156718767371,
+      "threshold": {
+        "scope": "validation_only",
+        "rule": "max_ks_tie_highest_finite_threshold",
+        "value": 0.07483150970528418,
+        "TP": 2492,
+        "FP": 17589,
+        "TN": 24814,
+        "FN": 1232,
+        "precision": 0.12409740550769384,
+        "recall": 0.6691729323308271,
+        "false_positive_rate": 0.41480555621064547,
+        "selected_fraction": 0.4353415570056583,
+        "meaning": "classroom risk flag only; not lending approval or economic optimality"
+      },
+      "calibration_bins": [
+        {
+          "bin": 0,
+          "rows": 34360,
+          "mean_prediction": 0.05861280217796965,
+          "event_fraction": 0.056839348079161814
+        },
+        {
+          "bin": 1,
+          "rows": 10502,
+          "mean_prediction": 0.13320652178390116,
+          "event_fraction": 0.1377832793753571
+        },
+        {
+          "bin": 2,
+          "rows": 1170,
+          "mean_prediction": 0.2313787127467883,
+          "event_fraction": 0.252991452991453
+        },
+        {
+          "bin": 3,
+          "rows": 85,
+          "mean_prediction": 0.33598428270533726,
+          "event_fraction": 0.2823529411764706
+        },
+        {
+          "bin": 4,
+          "rows": 10,
+          "mean_prediction": 0.44177333998228285,
+          "event_fraction": 0.4
+        },
+        {
+          "bin": 5,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_fraction": null
+        },
+        {
+          "bin": 6,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_fraction": null
+        },
+        {
+          "bin": 7,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_fraction": null
+        },
+        {
+          "bin": 8,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_fraction": null
+        },
+        {
+          "bin": 9,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_fraction": null
+        }
+      ]
+    },
+    "extended71": {
+      "rows": 46127,
+      "events": 3724,
+      "event_rate": 0.08073362672621241,
+      "roc_auc": 0.6968356577429402,
+      "ks": 0.29461534917135573,
+      "brier_score": 0.0708995210923498,
+      "threshold": {
+        "scope": "validation_only",
+        "rule": "max_ks_tie_highest_finite_threshold",
+        "value": 0.0764883811769358,
+        "TP": 2460,
+        "FP": 15518,
+        "TN": 26885,
+        "FN": 1264,
+        "precision": 0.1368339081099121,
+        "recall": 0.6605800214822771,
+        "false_positive_rate": 0.3659646723109214,
+        "selected_fraction": 0.38975003793873436,
+        "meaning": "classroom risk flag only; not lending approval or economic optimality"
+      },
+      "calibration_bins": [
+        {
+          "bin": 0,
+          "rows": 34574,
+          "mean_prediction": 0.05477297627645322,
+          "event_fraction": 0.05400011569387401
+        },
+        {
+          "bin": 1,
+          "rows": 9599,
+          "mean_prediction": 0.13517272011105844,
+          "event_fraction": 0.1386602771121992
+        },
+        {
+          "bin": 2,
+          "rows": 1597,
+          "mean_prediction": 0.23689838728369395,
+          "event_fraction": 0.24796493425172197
+        },
+        {
+          "bin": 3,
+          "rows": 303,
+          "mean_prediction": 0.33730001672283966,
+          "event_fraction": 0.35973597359735976
+        },
+        {
+          "bin": 4,
+          "rows": 50,
+          "mean_prediction": 0.43793179029698137,
+          "event_fraction": 0.36
+        },
+        {
+          "bin": 5,
+          "rows": 4,
+          "mean_prediction": 0.5253508216255525,
+          "event_fraction": 0.75
+        },
+        {
+          "bin": 6,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_fraction": null
+        },
+        {
+          "bin": 7,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_fraction": null
+        },
+        {
+          "bin": 8,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_fraction": null
+        },
+        {
+          "bin": 9,
+          "rows": 0,
+          "mean_prediction": null,
+          "event_fraction": null
+        }
+      ]
+    }
+  },
+  "new_independent_final_test": false,
+  "validation_used_for_research_and_selection": true,
+  "historical_test_exposure_rows": 769,
+  "model_sha256": "448c91f5a12f4241ce5d9d1190d628073d05116c5cf039806ffc7e24e3084442",
+  "case_output_reference": {
+    "application_id": 100006,
+    "sample_use": "validation",
+    "probability_rounded_percent": 25.14
+  }
+}

@@ -1,0 +1,20 @@
+import {field,fieldLabel,sourceName,unitName,valueText,stateName,prose,binText} from './presentation';
+import {metric} from './format';
+import {useEffect,useRef,useState} from 'react';
+import type {CaseData} from './api/types';
+import {fetchHistory} from './api/historyClient';
+import type {HistoryData,HistoryInfo} from './api/historyClient';
+export function RelativeTimeline({c,factId,info}:{c:CaseData;factId:string;info:HistoryInfo}){
+ const [data,setData]=useState<HistoryData>(),[error,setError]=useState(''),[attempt,retry]=useState(0),[selected,setSelected]=useState<number|null>(null),anchor=useRef<HTMLDivElement>(null);
+ const table=factId.startsWith('BUREAU_')?'bureau':'previous',timeKey=table==='bureau'?'DAYS_CREDIT':'DAYS_DECISION';
+ useEffect(()=>{const ac=new AbortController();setData(undefined);setError('');setSelected(null);if(info.status==='ready')void fetchHistory(c,info,{table,feature:factId,selection:'inputs',offset:0,limit:50},`timeline-${factId}-${attempt}`,ac.signal).then(d=>{if(!ac.signal.aborted){if(d.items.some(r=>typeof r.source_values[timeKey]!=='number'||Number(r.source_values[timeKey])>=0))throw new Error('来源相对时间未通过严格早于申请日核对。');setData(d)}}).catch(e=>{if(!ac.signal.aborted)setError(e instanceof Error?e.message:'来源时间未能读取')});return()=>ac.abort()},[c,factId,info,table,timeKey,attempt]);
+ if(info.status!=='ready')return null;
+ if(error)return <section className="drawer-section"><h3>相对申请日的来源定位</h3><p role="alert">{error}</p><button onClick={()=>retry(x=>x+1)}>重新读取时间记录</button></section>;
+ if(!data)return <section className="drawer-section" aria-busy="true">正在核对来源时间…</section>;
+ const max=Math.max(1,...data.items.map(r=>-Number(r.source_values[timeKey]))),x=(day:number)=>35+(day+max)/max*400,record=data.items.find(r=>r.source_key===selected);
+ const choose=(key:number)=>{setSelected(key);anchor.current?.scrollIntoView({block:'nearest',behavior:'auto'})};
+ return <section className="drawer-section relative-timeline" data-testid="relative-timeline" data-fact-id={factId} data-case-revision={c.case_revision} data-total={data.total} data-plotted={data.items.length}><h3>相对申请日的来源定位</h3><p className="fine">仅展示进入本因素算式的前{data.items.length}条记录（来源键升序），共{data.total}条。横轴是距当前申请的相对天数；不表示真实日历日期、还款行为或完整信用时间线。</p>
+  {data.items.length?<><div className="timeline-scroll" tabIndex={0} aria-label="相对时间点图，可横向滚动"><svg viewBox="0 0 475 135" role="img" aria-label="进入当前因素算式的来源记录时间。点或下方按钮可选择记录。"><line x1="35" x2="435" y1="90" y2="90" stroke="#a6b5ca"/><text x="35" y="116" fontSize="11">申请前 {metric(max)} 天</text><text x="435" y="116" textAnchor="end" fontSize="11">当前申请日 0</text>{data.items.map((r,i)=>{const day=Number(r.source_values[timeKey]);return <g key={r.source_key} role="button" tabIndex={0} aria-label={`来源${r.source_key}，申请前${metric(-day)}天`} onClick={()=>choose(r.source_key)} onKeyDown={e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose(r.source_key)}}}><title>来源#{r.source_key} · 申请前{metric(-day)}天</title><line x1={x(day)} x2={x(day)} y1={28+i%3*17} y2="90" stroke="#dce5f2"/><circle cx={x(day)} cy={28+i%3*17} r={r.source_key===selected?7:5} fill={r.source_key===selected?'#b45332':'#2563eb'}/></g>})}</svg></div><div className="timeline-options" aria-label="来源时间等价数据与选择">{data.items.map(r=><button key={r.source_key} aria-pressed={selected===r.source_key} onClick={()=>choose(r.source_key)}>#{r.source_key} · 申请前{metric(-Number(r.source_values[timeKey]))}天</button>)}</div><div ref={anchor}>{record&&<div className="timeline-selected" data-testid="timeline-selected" data-source-key={record.source_key}><b>已选来源 #{record.source_key}</b><dl>{Object.entries(record.source_values).map(([key,v])=><div key={key}><dt>{fieldLabel(key)}</dt><dd>{valueText(key,v)}</dd></div>)}</dl><p>{prose(record.reason_text)} · 进入当前因素算式</p></div>}</div></>:<p className="history-empty">本因素没有可绘制的合格来源记录；保留保存值的零值或缺失值语义。</p>}
+  {data.next_offset!==null&&<p className="fine">图仅覆盖前50条；下方原来源查询保留全部分页。不能从这50条替代全量汇总。</p>}<a className="text-button" href="#source-records">继续查看来源口径与全部分页 ↓</a>
+ </section>;
+}

@@ -1,0 +1,27 @@
+{
+  "scope": "fingerprints of existing local records; original records are not distributed here",
+  "sources": [
+    {
+      "local_project_relative_path": "reports/workbench/step13-20261029/experiment01/results.json",
+      "sha256": "56c9b0093d5e0db65f5f3bc78a8e8af81435c9c3b159ce1a41340b2f0e24863c"
+    },
+    {
+      "local_project_relative_path": "docs/evidence/workbench_model_experiment_validation.json",
+      "sha256": "9f6a078dfd06639c72b0a8e5665b2a3075287362e23ed42fcf4091182c151f81"
+    },
+    {
+      "local_project_relative_path": "docs/evidence/workbench_application_content_cleanup.json",
+      "sha256": "aea39ecfe957b5eff677ca4d8be2f5d86efc57858155bb23349f1432dcf4a12b"
+    },
+    {
+      "local_project_relative_path": "src/credit_risk_workbench/model_reading71.json",
+      "sha256": "2b190cb5947509cfb2ff2134fb733ee33d202a92ab97f48f633a3333ecfde685"
+    },
+    {
+      "local_project_relative_path": "docs/79_case_explanation_practice.md",
+      "sha256": "f05055e20d73f92d3dbd5f83b291920ab067a7e0aa36816cefd3ab8eb3fa8bec"
+    }
+  ],
+  "new_training": false,
+  "new_original_test_access": false
+}

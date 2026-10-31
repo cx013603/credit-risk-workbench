@@ -1,0 +1,964 @@
+{
+  "scope": "selected source; two legacy page footers use a general source note; original code unchanged locally",
+  "files": [
+    {
+      "path": "config/history_features.json",
+      "source_sha256": "8d6bc0517d5352b85b235d5221619dbdf306c1c8e4432cabfd0f7bc5a13c2227",
+      "export_sha256": "8d6bc0517d5352b85b235d5221619dbdf306c1c8e4432cabfd0f7bc5a13c2227",
+      "bytes": 434,
+      "transformation": null
+    },
+    {
+      "path": "config/normalization.json",
+      "source_sha256": "86ce6dca3f52f440d6630793c38a4030a2daec19382e709f4109727d2788d655",
+      "export_sha256": "86ce6dca3f52f440d6630793c38a4030a2daec19382e709f4109727d2788d655",
+      "bytes": 113760,
+      "transformation": null
+    },
+    {
+      "path": "frontend/index.html",
+      "source_sha256": "acfda8f9d6147e4937a91ae09295a4007245e89d754176a541c1d83fc4e3f47e",
+      "export_sha256": "acfda8f9d6147e4937a91ae09295a4007245e89d754176a541c1d83fc4e3f47e",
+      "bytes": 313,
+      "transformation": null
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "source_sha256": "75dd95389dec9d288b50cc0a7dab678375e784f5e3bca8d7185178aec4e4d94b",
+      "export_sha256": "75dd95389dec9d288b50cc0a7dab678375e784f5e3bca8d7185178aec4e4d94b",
+      "bytes": 78091,
+      "transformation": null
+    },
+    {
+      "path": "frontend/package.json",
+      "source_sha256": "38d08ead169fd3e3d98e5770748bca5b0626a640d94b41c56106422088d657dc",
+      "export_sha256": "38d08ead169fd3e3d98e5770748bca5b0626a640d94b41c56106422088d657dc",
+      "bytes": 468,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/api/client.ts",
+      "source_sha256": "5a83e6515d0bead08f3db46bd0d62243c5d72f3378e03fd5de27b1883ddc9dc0",
+      "export_sha256": "5a83e6515d0bead08f3db46bd0d62243c5d72f3378e03fd5de27b1883ddc9dc0",
+      "bytes": 5980,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/api/collectionClient.ts",
+      "source_sha256": "ca7c2254d6d47ab796cdd045fd1d61e7fb6b18a5ec3ae64afe6996304a7d181d",
+      "export_sha256": "ca7c2254d6d47ab796cdd045fd1d61e7fb6b18a5ec3ae64afe6996304a7d181d",
+      "bytes": 7045,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/api/comparisonClient.ts",
+      "source_sha256": "1bf603a9f7e01a7f7cc49a685742cadedadcb3b8588e38c78510d1c88892d05b",
+      "export_sha256": "1bf603a9f7e01a7f7cc49a685742cadedadcb3b8588e38c78510d1c88892d05b",
+      "bytes": 6390,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/api/historyClient.ts",
+      "source_sha256": "7cb22b358849f388feb295601b852b093eb64cfb8557c6f6625d0da2ed76bca5",
+      "export_sha256": "7cb22b358849f388feb295601b852b093eb64cfb8557c6f6625d0da2ed76bca5",
+      "bytes": 5726,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/api/inputClient.ts",
+      "source_sha256": "9ff64209e18dca85a97e440a644b4af7b2acd50c6089df675026ddb13bc1307f",
+      "export_sha256": "9ff64209e18dca85a97e440a644b4af7b2acd50c6089df675026ddb13bc1307f",
+      "bytes": 7642,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/api/narrativeClient.ts",
+      "source_sha256": "0d3edd2019e46afa1b2589f3d3cb1a9a32903850fcd4e8b023f6762eca438848",
+      "export_sha256": "0d3edd2019e46afa1b2589f3d3cb1a9a32903850fcd4e8b023f6762eca438848",
+      "bytes": 5017,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/api/referenceClient.ts",
+      "source_sha256": "d1824b20baffb0f15ea6d002f1496d77c1b2b60939dfb7f5b2f05658b9d00319",
+      "export_sha256": "d1824b20baffb0f15ea6d002f1496d77c1b2b60939dfb7f5b2f05658b9d00319",
+      "bytes": 5407,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/api/types.ts",
+      "source_sha256": "09d8292fa3a1eb93a7f6c642920076e12eb3d253038b589a83a1d120b500ecc7",
+      "export_sha256": "09d8292fa3a1eb93a7f6c642920076e12eb3d253038b589a83a1d120b500ecc7",
+      "bytes": 1534,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/api/workflowClient.ts",
+      "source_sha256": "ccaebd36ca8a98ec5d8fc6beeb1c355426ba96457ef03287cadded78cc98264c",
+      "export_sha256": "ccaebd36ca8a98ec5d8fc6beeb1c355426ba96457ef03287cadded78cc98264c",
+      "bytes": 7750,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/api/workspace71.ts",
+      "source_sha256": "1dfe8000ad68d12c414b4d46fd22da9ac8d12f9b4f132e8062a4d422d515ad5f",
+      "export_sha256": "1dfe8000ad68d12c414b4d46fd22da9ac8d12f9b4f132e8062a4d422d515ad5f",
+      "bytes": 5698,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/applicantFacts.tsx",
+      "source_sha256": "35eb1dbbf7f0031d3abe5794f263e784eb2a94aef78c954e708e8763b013001e",
+      "export_sha256": "35eb1dbbf7f0031d3abe5794f263e784eb2a94aef78c954e708e8763b013001e",
+      "bytes": 1384,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/candidate71.tsx",
+      "source_sha256": "63e96239fede0bf02804536bfb7cfd6744c1531f65f890d63937846b7275e76b",
+      "export_sha256": "63e96239fede0bf02804536bfb7cfd6744c1531f65f890d63937846b7275e76b",
+      "bytes": 20351,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/catalog.tsx",
+      "source_sha256": "e1d4a5d2a05e4b32036c3f8734ecd86b7c6f91e95452d474d45876f31a7f6a2a",
+      "export_sha256": "e1d4a5d2a05e4b32036c3f8734ecd86b7c6f91e95452d474d45876f31a7f6a2a",
+      "bytes": 12787,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/charts.tsx",
+      "source_sha256": "e07f3b5b35475814c2abfb84723b10e9a6506cafd34a2039a00e3e36e9cff556",
+      "export_sha256": "e07f3b5b35475814c2abfb84723b10e9a6506cafd34a2039a00e3e36e9cff556",
+      "bytes": 2878,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/comparison.tsx",
+      "source_sha256": "83c30c9d103ebed104422214d1930a500894c72068faf773168102cbd03ddabd",
+      "export_sha256": "83c30c9d103ebed104422214d1930a500894c72068faf773168102cbd03ddabd",
+      "bytes": 12505,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/comparisonData.ts",
+      "source_sha256": "5e6cd0bff08c0a884e8b4a63a4dd378f5c707122e8a2497b6e942229424903a0",
+      "export_sha256": "5e6cd0bff08c0a884e8b4a63a4dd378f5c707122e8a2497b6e942229424903a0",
+      "bytes": 2573,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/contributionData.ts",
+      "source_sha256": "3caddfaf8ddd79b8b25b7c6848a70af43bd5441295e97b3fc15c9df11dbe5a1b",
+      "export_sha256": "3caddfaf8ddd79b8b25b7c6848a70af43bd5441295e97b3fc15c9df11dbe5a1b",
+      "bytes": 1243,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/format.ts",
+      "source_sha256": "c3c80f709b065823543bd9f81b8ab93c97dcf9f2213b7d9337d1bff585679e7b",
+      "export_sha256": "c3c80f709b065823543bd9f81b8ab93c97dcf9f2213b7d9337d1bff585679e7b",
+      "bytes": 839,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/history.tsx",
+      "source_sha256": "c208c427c3acbfaac6361f4f084a89b3106119de13e89d2a1693b1e1dbce1ff4",
+      "export_sha256": "c208c427c3acbfaac6361f4f084a89b3106119de13e89d2a1693b1e1dbce1ff4",
+      "bytes": 8782,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "source_sha256": "79310f258b1160f04a77a204e8f902c16f4a6613e9f40ebc8669ee50dca4b985",
+      "export_sha256": "79310f258b1160f04a77a204e8f902c16f4a6613e9f40ebc8669ee50dca4b985",
+      "bytes": 419,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/modelAnalysis.tsx",
+      "source_sha256": "3743d77803087c86c0bc93eed537d764d2ea791b42043e239a0ba5af212fd3d9",
+      "export_sha256": "3743d77803087c86c0bc93eed537d764d2ea791b42043e239a0ba5af212fd3d9",
+      "bytes": 1130,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/narratives.tsx",
+      "source_sha256": "baf809000da698cd1591d21cbfd95e65d231ad8bfadc9197d4df3521a8bd541b",
+      "export_sha256": "baf809000da698cd1591d21cbfd95e65d231ad8bfadc9197d4df3521a8bd541b",
+      "bytes": 3974,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/newInputs.tsx",
+      "source_sha256": "296043bc679444c7d9811d05b6bfd81e741c733d2ab580918cf6855c234a225e",
+      "export_sha256": "296043bc679444c7d9811d05b6bfd81e741c733d2ab580918cf6855c234a225e",
+      "bytes": 12489,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/panels.tsx",
+      "source_sha256": "a24ea8a8c20b834ce4f7c1fcf864479f83b3f798b3b466d35f63b6ca4eb8b413",
+      "export_sha256": "a24ea8a8c20b834ce4f7c1fcf864479f83b3f798b3b466d35f63b6ca4eb8b413",
+      "bytes": 12850,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/presentation.ts",
+      "source_sha256": "a03dbac521ab1b7095f64f610cd11797317edcc86e81b2f90f25b3d01fa84a40",
+      "export_sha256": "a03dbac521ab1b7095f64f610cd11797317edcc86e81b2f90f25b3d01fa84a40",
+      "bytes": 6415,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/quality.tsx",
+      "source_sha256": "14b860e0dcdc0595262630262a51a5fce0563ab3da4e34f91c54aad29ff44e65",
+      "export_sha256": "14b860e0dcdc0595262630262a51a5fce0563ab3da4e34f91c54aad29ff44e65",
+      "bytes": 5087,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/rawEditor.tsx",
+      "source_sha256": "d3f441ae37d40d40ad6993eb766a12feeaaed8d032e7848d08237650b46756aa",
+      "export_sha256": "d3f441ae37d40d40ad6993eb766a12feeaaed8d032e7848d08237650b46756aa",
+      "bytes": 6657,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/reading71.tsx",
+      "source_sha256": "3503acc4da6f18c1e17acdfa3c3a7d53909d199fe11669a29e6a8fe1720b6da6",
+      "export_sha256": "3503acc4da6f18c1e17acdfa3c3a7d53909d199fe11669a29e6a8fe1720b6da6",
+      "bytes": 4218,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/reading71Data.ts",
+      "source_sha256": "e35a90e6d7bd302bc30cff077a3eca9a7e2df703bd754da42a0de0d256784eba",
+      "export_sha256": "e35a90e6d7bd302bc30cff077a3eca9a7e2df703bd754da42a0de0d256784eba",
+      "bytes": 763,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/references.tsx",
+      "source_sha256": "6ec0893b4d2bd1ae68e127e006e9c40df2ace6aeee501a9ab08cc131d825c4b9",
+      "export_sha256": "6ec0893b4d2bd1ae68e127e006e9c40df2ace6aeee501a9ab08cc131d825c4b9",
+      "bytes": 8115,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/single71.tsx",
+      "source_sha256": "ca4d3edbf22758b5dd0acd218748507a31afaf0fdbfdc5874dce485815f308ef",
+      "export_sha256": "ca4d3edbf22758b5dd0acd218748507a31afaf0fdbfdc5874dce485815f308ef",
+      "bytes": 21422,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/summary.tsx",
+      "source_sha256": "b3a82e72704f55011356163b48956fb8ffaca3270a6afa3c6271c5affc7902ca",
+      "export_sha256": "b3a82e72704f55011356163b48956fb8ffaca3270a6afa3c6271c5affc7902ca",
+      "bytes": 4954,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/summaryData.ts",
+      "source_sha256": "7ca8eb7054b394f1082a001893b1851f4634d587748dfbd5a371079500eaf007",
+      "export_sha256": "7ca8eb7054b394f1082a001893b1851f4634d587748dfbd5a371079500eaf007",
+      "bytes": 6132,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/theme.css",
+      "source_sha256": "807245cb79db573c0defffa8e1a17e6d3b18a4511020f8146059901b23e7f0bb",
+      "export_sha256": "807245cb79db573c0defffa8e1a17e6d3b18a4511020f8146059901b23e7f0bb",
+      "bytes": 42037,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/timeline.tsx",
+      "source_sha256": "9f393dfb86cb63969249b0c9a079896eba4d4d0160689e7bccf7da0a9f1b120c",
+      "export_sha256": "9f393dfb86cb63969249b0c9a079896eba4d4d0160689e7bccf7da0a9f1b120c",
+      "bytes": 4653,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/vite-env.d.ts",
+      "source_sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "export_sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "bytes": 38,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/workbenchUi.tsx",
+      "source_sha256": "4c916ccd9a4cd926383dfb047fc26ad4b32d3424e3f88dd15446f658325392cb",
+      "export_sha256": "4c916ccd9a4cd926383dfb047fc26ad4b32d3424e3f88dd15446f658325392cb",
+      "bytes": 195,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/workflow.tsx",
+      "source_sha256": "83d5826de1ccab0285de25d52af8eb2a723c8e33358549809cd2b1a0ff7edabd",
+      "export_sha256": "83d5826de1ccab0285de25d52af8eb2a723c8e33358549809cd2b1a0ff7edabd",
+      "bytes": 10913,
+      "transformation": null
+    },
+    {
+      "path": "frontend/src/workspace71Views.tsx",
+      "source_sha256": "0168fc216268195083ccb540b94267a91f874977d9359b02e0ff67a511ad9ac2",
+      "export_sha256": "0168fc216268195083ccb540b94267a91f874977d9359b02e0ff67a511ad9ac2",
+      "bytes": 23211,
+      "transformation": null
+    },
+    {
+      "path": "frontend/tests/client.test.mjs",
+      "source_sha256": "1290f266ec40c01a445d0c916933a1c2bafe0e49bd5edbe88b7a57a0b5ee52df",
+      "export_sha256": "1290f266ec40c01a445d0c916933a1c2bafe0e49bd5edbe88b7a57a0b5ee52df",
+      "bytes": 3736,
+      "transformation": null
+    },
+    {
+      "path": "frontend/tests/collection.test.mjs",
+      "source_sha256": "bf2d769e0713011d47bfa8b6fce325368cd81b3d79d1e7f970a9b0bc4009a75c",
+      "export_sha256": "bf2d769e0713011d47bfa8b6fce325368cd81b3d79d1e7f970a9b0bc4009a75c",
+      "bytes": 3510,
+      "transformation": null
+    },
+    {
+      "path": "frontend/tests/comparison.test.mjs",
+      "source_sha256": "b619dcfbb6120edfa93001383f2055b43ca00f4a55c39375f3560061daee4650",
+      "export_sha256": "b619dcfbb6120edfa93001383f2055b43ca00f4a55c39375f3560061daee4650",
+      "bytes": 6714,
+      "transformation": null
+    },
+    {
+      "path": "frontend/tests/history.test.mjs",
+      "source_sha256": "215a14d613cbf1f8ce6e19fa2d8c7384195aca032145ab9e535997b97c11ff97",
+      "export_sha256": "215a14d613cbf1f8ce6e19fa2d8c7384195aca032145ab9e535997b97c11ff97",
+      "bytes": 2508,
+      "transformation": null
+    },
+    {
+      "path": "frontend/tests/inlineFacts.test.mjs",
+      "source_sha256": "9b7d9ac3b91b073ce39d221ff77e3e9dfb7385d29415661a1e455607e4800a4d",
+      "export_sha256": "9b7d9ac3b91b073ce39d221ff77e3e9dfb7385d29415661a1e455607e4800a4d",
+      "bytes": 1771,
+      "transformation": null
+    },
+    {
+      "path": "frontend/tests/input.test.mjs",
+      "source_sha256": "334d1a8a0f7a80310ca6de3b6e5b3a224bd41215d6d7caf79d2c1b680de80fb2",
+      "export_sha256": "334d1a8a0f7a80310ca6de3b6e5b3a224bd41215d6d7caf79d2c1b680de80fb2",
+      "bytes": 4044,
+      "transformation": null
+    },
+    {
+      "path": "frontend/tests/narratives.test.mjs",
+      "source_sha256": "edb64f3bdc503939ace7bd820788a8da051fc4ffe78867a1d608ce3c6e6d8b8d",
+      "export_sha256": "edb64f3bdc503939ace7bd820788a8da051fc4ffe78867a1d608ce3c6e6d8b8d",
+      "bytes": 3382,
+      "transformation": null
+    },
+    {
+      "path": "frontend/tests/reading71.test.mjs",
+      "source_sha256": "43ace91d748610417f63f04633f206001c3755304393b439ab7ea14429ba482e",
+      "export_sha256": "43ace91d748610417f63f04633f206001c3755304393b439ab7ea14429ba482e",
+      "bytes": 2290,
+      "transformation": null
+    },
+    {
+      "path": "frontend/tests/reference.test.mjs",
+      "source_sha256": "86aee451d16fd92caba71883fd9845f84cab1e5fa3423164ead4e7eeceedf69d",
+      "export_sha256": "86aee451d16fd92caba71883fd9845f84cab1e5fa3423164ead4e7eeceedf69d",
+      "bytes": 4429,
+      "transformation": null
+    },
+    {
+      "path": "frontend/tests/summary.test.mjs",
+      "source_sha256": "e5945ff16ed8e16c0c364b4d806d17de51036b8fc43d46bae12fd9404d728c6c",
+      "export_sha256": "e5945ff16ed8e16c0c364b4d806d17de51036b8fc43d46bae12fd9404d728c6c",
+      "bytes": 4267,
+      "transformation": null
+    },
+    {
+      "path": "frontend/tests/workflow.test.mjs",
+      "source_sha256": "a5fdb37f21e189d486733f3c773ee5778d17618a84cf3f6591d8d038ba60aa97",
+      "export_sha256": "a5fdb37f21e189d486733f3c773ee5778d17618a84cf3f6591d8d038ba60aa97",
+      "bytes": 5117,
+      "transformation": null
+    },
+    {
+      "path": "frontend/tests/workspace71.test.mjs",
+      "source_sha256": "fac4d7fc0e6c8c2760eeac6b902431cf563692e6046c4b3743bbf5dd6e4dbfd2",
+      "export_sha256": "fac4d7fc0e6c8c2760eeac6b902431cf563692e6046c4b3743bbf5dd6e4dbfd2",
+      "bytes": 3435,
+      "transformation": null
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "source_sha256": "79436c3771b528a87659efa01cd7e166263c900c1568c7d3363334ca20edc9ef",
+      "export_sha256": "79436c3771b528a87659efa01cd7e166263c900c1568c7d3363334ca20edc9ef",
+      "bytes": 313,
+      "transformation": null
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "source_sha256": "1e93a43bf5f80b9d13d4b01958db1b3a37fbc55d3d0deb4da8094bf2b79926ce",
+      "export_sha256": "1e93a43bf5f80b9d13d4b01958db1b3a37fbc55d3d0deb4da8094bf2b79926ce",
+      "bytes": 509,
+      "transformation": null
+    },
+    {
+      "path": "requirements-data.txt",
+      "source_sha256": "cfc5c2858ce71e2d01c382d94ab65b2d09c210b454a2effc35e1a65b2a97357f",
+      "export_sha256": "cfc5c2858ce71e2d01c382d94ab65b2d09c210b454a2effc35e1a65b2a97357f",
+      "bytes": 189,
+      "transformation": null
+    },
+    {
+      "path": "requirements-model-smoke.txt",
+      "source_sha256": "356476cb171f55d648329d4a65f2c5317846fae7eac92cc298a277044df7bbd8",
+      "export_sha256": "356476cb171f55d648329d4a65f2c5317846fae7eac92cc298a277044df7bbd8",
+      "bytes": 213,
+      "transformation": null
+    },
+    {
+      "path": "requirements-workbench.lock",
+      "source_sha256": "b4ee5f4c1200fc1847e54114372f220923da5a95fc772233794bf58e894e7798",
+      "export_sha256": "b4ee5f4c1200fc1847e54114372f220923da5a95fc772233794bf58e894e7798",
+      "bytes": 1381,
+      "transformation": null
+    },
+    {
+      "path": "scripts/_project.py",
+      "source_sha256": "9a4bb7b2e3c15fc490e3841328421c6fb7e687d22794cc39cb5c7bc69b8d6a2d",
+      "export_sha256": "9a4bb7b2e3c15fc490e3841328421c6fb7e687d22794cc39cb5c7bc69b8d6a2d",
+      "bytes": 206,
+      "transformation": null
+    },
+    {
+      "path": "scripts/run_history_features.py",
+      "source_sha256": "88f191cfa412ea60862432202929bb5cc4add32f3fc4f8a7c69f2236fd5c67dd",
+      "export_sha256": "88f191cfa412ea60862432202929bb5cc4add32f3fc4f8a7c69f2236fd5c67dd",
+      "bytes": 4965,
+      "transformation": null
+    },
+    {
+      "path": "scripts/verify_workbench_experiment_v2.py",
+      "source_sha256": "8f2cbfc3f1f12bd9d6c7c392c1d63f49a5e66cc6e516669d97e9438e152cf804",
+      "export_sha256": "8f2cbfc3f1f12bd9d6c7c392c1d63f49a5e66cc6e516669d97e9438e152cf804",
+      "bytes": 11986,
+      "transformation": null
+    },
+    {
+      "path": "sql/01_overview.sql",
+      "source_sha256": "161d4b0b6573f5995133ed3e77f11a869c1ac5d33a232d11b92d6c261fc048e5",
+      "export_sha256": "161d4b0b6573f5995133ed3e77f11a869c1ac5d33a232d11b92d6c261fc048e5",
+      "bytes": 310,
+      "transformation": null
+    },
+    {
+      "path": "sql/02_bureau_features.sql",
+      "source_sha256": "6df7e3d402bb53a6294d18554c2562862583403afcbd7b09a108a1208442b4e4",
+      "export_sha256": "6df7e3d402bb53a6294d18554c2562862583403afcbd7b09a108a1208442b4e4",
+      "bytes": 2330,
+      "transformation": null
+    },
+    {
+      "path": "sql/03_previous_features.sql",
+      "source_sha256": "785369771d265066471c79f783228c1fe0b27ef19511cf92a8d194173b77bc11",
+      "export_sha256": "785369771d265066471c79f783228c1fe0b27ef19511cf92a8d194173b77bc11",
+      "bytes": 1160,
+      "transformation": null
+    },
+    {
+      "path": "sql/04_join_history.sql",
+      "source_sha256": "73ec7b9218ab32ed43a8f0afcc2ee2719a331dc0ad2307639ba1c4f6fc0c83ca",
+      "export_sha256": "73ec7b9218ab32ed43a8f0afcc2ee2719a331dc0ad2307639ba1c4f6fc0c83ca",
+      "bytes": 447,
+      "transformation": null
+    },
+    {
+      "path": "sql/workbench_v2/bureau_monthly.sql",
+      "source_sha256": "c4a38c6c0c5eb295d8af9a68d152e8aab45400abdfbf2bb2bd218001e2cb1b9e",
+      "export_sha256": "c4a38c6c0c5eb295d8af9a68d152e8aab45400abdfbf2bb2bd218001e2cb1b9e",
+      "bytes": 1173,
+      "transformation": null
+    },
+    {
+      "path": "sql/workbench_v2/installments.sql",
+      "source_sha256": "453213be9d10c14efaa90ac74a6da21446bd84023ceee63046bec613ff95e36d",
+      "export_sha256": "453213be9d10c14efaa90ac74a6da21446bd84023ceee63046bec613ff95e36d",
+      "bytes": 2471,
+      "transformation": null
+    },
+    {
+      "path": "sql/workbench_v2/monthly.sql",
+      "source_sha256": "ba7697719ad2eb4163258020c952b4adf56abd8a7b9db5e3b1f3d2bbff05dd3d",
+      "export_sha256": "ba7697719ad2eb4163258020c952b4adf56abd8a7b9db5e3b1f3d2bbff05dd3d",
+      "bytes": 1300,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/__init__.py",
+      "source_sha256": "2263857cd2e5d05ad93040ebda7d5d2c20e1c7cd324db6325f6c06ff22d670d7",
+      "export_sha256": "2263857cd2e5d05ad93040ebda7d5d2c20e1c7cd324db6325f6c06ff22d670d7",
+      "bytes": 94,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/assessment.py",
+      "source_sha256": "7d28f9dda8287f13b41da892b395a41cb64df6edfd4b2b23e48f119f9138ef6a",
+      "export_sha256": "7d28f9dda8287f13b41da892b395a41cb64df6edfd4b2b23e48f119f9138ef6a",
+      "bytes": 29173,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/demo.py",
+      "source_sha256": "79f4fd31f18bb5c1800bfaa58c850d1b3e83b907ecb6014ad7c6ecb85a847ee2",
+      "export_sha256": "a5bc76e54def30ce74079c2aa57314148653f19ec5e584027f1e994677a119e5",
+      "bytes": 22289,
+      "transformation": "historical_page_footer_general_source_note_only"
+    },
+    {
+      "path": "src/credit_risk/evaluation.py",
+      "source_sha256": "b67271e05e41423033a39dde0109ff5150a4f7f2de01d69b39bd917e08e49815",
+      "export_sha256": "b67271e05e41423033a39dde0109ff5150a4f7f2de01d69b39bd917e08e49815",
+      "bytes": 2980,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/experiments.py",
+      "source_sha256": "78409146f7c4d32ba61a923f6833ec4c634a32d313132ec8330d4d512a0e20fc",
+      "export_sha256": "78409146f7c4d32ba61a923f6833ec4c634a32d313132ec8330d4d512a0e20fc",
+      "bytes": 30132,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/history.py",
+      "source_sha256": "d8bfc3abd348f9cc44f78128879b8cbba94b5fd7662a66ee698a486478e29d58",
+      "export_sha256": "d8bfc3abd348f9cc44f78128879b8cbba94b5fd7662a66ee698a486478e29d58",
+      "bytes": 32325,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/logistic.py",
+      "source_sha256": "50bfb169db94eb4d8075a6a691679503059ba6ac0e323bd8eee645e450fd6897",
+      "export_sha256": "50bfb169db94eb4d8075a6a691679503059ba6ac0e323bd8eee645e450fd6897",
+      "bytes": 21200,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/model_smoke.py",
+      "source_sha256": "40e9220c6dce7012af7dfa78f603418e979faab3772820af8c7fa96fb6a4c1c7",
+      "export_sha256": "40e9220c6dce7012af7dfa78f603418e979faab3772820af8c7fa96fb6a4c1c7",
+      "bytes": 16709,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/monitoring.py",
+      "source_sha256": "4fcf11d2bbfa38379c0b3dae3386ab87810f4dd3fbe9aea4df9c191ec8ee33f2",
+      "export_sha256": "4fcf11d2bbfa38379c0b3dae3386ab87810f4dd3fbe9aea4df9c191ec8ee33f2",
+      "bytes": 22750,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/normalize.py",
+      "source_sha256": "d6451ef7df837de6c975ac13ee767a2a682f9923303a8a3f8989782a9630d9f2",
+      "export_sha256": "d6451ef7df837de6c975ac13ee767a2a682f9923303a8a3f8989782a9630d9f2",
+      "bytes": 18626,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/owned_process.py",
+      "source_sha256": "086dd5021d4d65cf57606fbac77a8265d7e968313e3ce70c3235aa2ce67d238e",
+      "export_sha256": "086dd5021d4d65cf57606fbac77a8265d7e968313e3ce70c3235aa2ce67d238e",
+      "bytes": 3404,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/parquet.py",
+      "source_sha256": "bc812dd3592c004d66a5e538d94f69dcb49ee97f645c53275b216273224a90c6",
+      "export_sha256": "bc812dd3592c004d66a5e538d94f69dcb49ee97f645c53275b216273224a90c6",
+      "bytes": 12268,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/portable_release.py",
+      "source_sha256": "c63a69a8553ff3d61c16ea77197370a5fafd4cf0298f37fc65e1d5e6ad3be1e6",
+      "export_sha256": "c63a69a8553ff3d61c16ea77197370a5fafd4cf0298f37fc65e1d5e6ad3be1e6",
+      "bytes": 24117,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/portable_runtime.py",
+      "source_sha256": "5316503299c885256d95a036070acfe75b2d223dbbbc11d8dbf0de2fa338863a",
+      "export_sha256": "5316503299c885256d95a036070acfe75b2d223dbbbc11d8dbf0de2fa338863a",
+      "bytes": 11966,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/quality.py",
+      "source_sha256": "6b5078a2f6a39e972866fd8cf66c4950e029d61116090e7c908829e3867d0111",
+      "export_sha256": "6b5078a2f6a39e972866fd8cf66c4950e029d61116090e7c908829e3867d0111",
+      "bytes": 5867,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/raw.py",
+      "source_sha256": "a6313ce61c139fa45c984cb53bb08cace408f0ca7cad8b55f84fca78ae81b826",
+      "export_sha256": "a6313ce61c139fa45c984cb53bb08cace408f0ca7cad8b55f84fca78ae81b826",
+      "bytes": 7742,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/recovery.py",
+      "source_sha256": "91f70e699e15765cfd8986ebb25f8c455c91e8061783e1b4476b62e1fee69dcc",
+      "export_sha256": "91f70e699e15765cfd8986ebb25f8c455c91e8061783e1b4476b62e1fee69dcc",
+      "bytes": 11271,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/recovery_v11.py",
+      "source_sha256": "e8792b225aecb36da97f7b06a429a1bcaa3252035050b23bacb3e16405ab5f60",
+      "export_sha256": "e8792b225aecb36da97f7b06a429a1bcaa3252035050b23bacb3e16405ab5f60",
+      "bytes": 17417,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/release_management.py",
+      "source_sha256": "230df09dcc1302d6d7c08fbada4435cf9c434288c7083f840d892d6bb2fe8f84",
+      "export_sha256": "230df09dcc1302d6d7c08fbada4435cf9c434288c7083f840d892d6bb2fe8f84",
+      "bytes": 17418,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/reproduction.py",
+      "source_sha256": "d965ee953e0b7ffb7b94dd0c31a92d5c6ae442fb72036bd0bca8bb1421675e15",
+      "export_sha256": "d965ee953e0b7ffb7b94dd0c31a92d5c6ae442fb72036bd0bca8bb1421675e15",
+      "bytes": 13675,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/runtime.py",
+      "source_sha256": "3e46bc549d2dd89ac297af124fcbcfa8f151315a493adb11070881a5cd2f6200",
+      "export_sha256": "3e46bc549d2dd89ac297af124fcbcfa8f151315a493adb11070881a5cd2f6200",
+      "bytes": 4999,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/scorecard.py",
+      "source_sha256": "6e61b46b6cb5a674414d0d54fe0a7f184db09e9236374174efabf35eae12e299",
+      "export_sha256": "6e61b46b6cb5a674414d0d54fe0a7f184db09e9236374174efabf35eae12e299",
+      "bytes": 17537,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/scoring.py",
+      "source_sha256": "4ebf46b14316c86e72815d7998f12919d2ee9f1640eddf79d4f8ce18f73ebb1c",
+      "export_sha256": "4ebf46b14316c86e72815d7998f12919d2ee9f1640eddf79d4f8ce18f73ebb1c",
+      "bytes": 22717,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/scoring_api.py",
+      "source_sha256": "e1015fb31245307759c128419a059b653637efea36f7a7bcfdd8940e5ba676c9",
+      "export_sha256": "e1015fb31245307759c128419a059b653637efea36f7a7bcfdd8940e5ba676c9",
+      "bytes": 11735,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/spark_compare.py",
+      "source_sha256": "befa9cb962fd5abc8790a935f2c4fdd30f0760ef254967b46b94557ce49a3fff",
+      "export_sha256": "befa9cb962fd5abc8790a935f2c4fdd30f0760ef254967b46b94557ce49a3fff",
+      "bytes": 10243,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/spark_execution.py",
+      "source_sha256": "d7ff2b52dc0f7a177ed5a5702c9e338d504be2314921a7bebd4c758ae47c9be7",
+      "export_sha256": "d7ff2b52dc0f7a177ed5a5702c9e338d504be2314921a7bebd4c758ae47c9be7",
+      "bytes": 14539,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/tree.py",
+      "source_sha256": "d39d1ceb4f29bab08ebf128263b0959003dfef5029a183b1f5e2e46890c50bd3",
+      "export_sha256": "d39d1ceb4f29bab08ebf128263b0959003dfef5029a183b1f5e2e46890c50bd3",
+      "bytes": 22762,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/tree_explanation.py",
+      "source_sha256": "5ce85382bad889e5d579509288c9a4ee6f01c6e23a1d6ee47e1d279654a68e6a",
+      "export_sha256": "5ce85382bad889e5d579509288c9a4ee6f01c6e23a1d6ee47e1d279654a68e6a",
+      "bytes": 21598,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk/tree_explanation_page.py",
+      "source_sha256": "1432db1bac93f25a9d4484d4dafeaa6e47d47dd3244293acd5e19219fee0b350",
+      "export_sha256": "ba6104fe1adb6f6c7d1682b08e21e0c46702bf439bdee8ccae5008724adc9dc1",
+      "bytes": 9977,
+      "transformation": "historical_page_footer_general_source_note_only"
+    },
+    {
+      "path": "src/credit_risk/unlabeled_scoring.py",
+      "source_sha256": "4488d9af675a6695c2abd64b7133cbe0657b702a5dffe27b05bb0968de9f8371",
+      "export_sha256": "4488d9af675a6695c2abd64b7133cbe0657b702a5dffe27b05bb0968de9f8371",
+      "bytes": 20304,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/__init__.py",
+      "source_sha256": "51b3fb946ae24d7b5c98c35253940348e074d5eaf94a8b76be2e9d9306bed371",
+      "export_sha256": "51b3fb946ae24d7b5c98c35253940348e074d5eaf94a8b76be2e9d9306bed371",
+      "bytes": 85,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/api.py",
+      "source_sha256": "6facf2b15306198b24be3528353a6f4f35e691a77d482d995c41e9d01ee35a2a",
+      "export_sha256": "6facf2b15306198b24be3528353a6f4f35e691a77d482d995c41e9d01ee35a2a",
+      "bytes": 21863,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/build_history_index.py",
+      "source_sha256": "c0bb6a75234490310a3353222d0fe0a1e723b44c06934e499f8ec7f86fc3f1cd",
+      "export_sha256": "c0bb6a75234490310a3353222d0fe0a1e723b44c06934e499f8ec7f86fc3f1cd",
+      "bytes": 14543,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/candidate71.py",
+      "source_sha256": "ea9bac1c54c05ebd5f2b29c55fb63adcbfda8202014cc46155b2ae5e892a0294",
+      "export_sha256": "ea9bac1c54c05ebd5f2b29c55fb63adcbfda8202014cc46155b2ae5e892a0294",
+      "bytes": 13850,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/candidate71_contract.py",
+      "source_sha256": "20504b9ef932dac1e7c8bb9c0536a861f96c42cd44571dd5e3f2385d28cc3615",
+      "export_sha256": "20504b9ef932dac1e7c8bb9c0536a861f96c42cd44571dd5e3f2385d28cc3615",
+      "bytes": 6208,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/candidate71_routes.py",
+      "source_sha256": "20bc73f288aa634e6217f1fd099759e0b780966d74b5571dd077b37a447c21e5",
+      "export_sha256": "20bc73f288aa634e6217f1fd099759e0b780966d74b5571dd077b37a447c21e5",
+      "bytes": 10437,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/catalog.py",
+      "source_sha256": "1b21881b8fc0790c777007b171fa2890aa8b4b9e4d060e714d097ddec82f5df5",
+      "export_sha256": "1b21881b8fc0790c777007b171fa2890aa8b4b9e4d060e714d097ddec82f5df5",
+      "bytes": 13670,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/contracts.py",
+      "source_sha256": "564f3ea1a4129ddf5e043d5069e5517468ade91bf0f74591fab1bdc360d90c05",
+      "export_sha256": "564f3ea1a4129ddf5e043d5069e5517468ade91bf0f74591fab1bdc360d90c05",
+      "bytes": 4626,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/delivery.py",
+      "source_sha256": "19a7c9d8d0a7c5a9939c430774b64cc80633d1f3d78c67216dbdeace992b4326",
+      "export_sha256": "19a7c9d8d0a7c5a9939c430774b64cc80633d1f3d78c67216dbdeace992b4326",
+      "bytes": 18532,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/experiment_v2.py",
+      "source_sha256": "038ab7788afe191db285a869f93e3b34da8225a32d557ab43d9144864d01e805",
+      "export_sha256": "038ab7788afe191db285a869f93e3b34da8225a32d557ab43d9144864d01e805",
+      "bytes": 12563,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/feature_reference_v2.py",
+      "source_sha256": "5a63bc00f8666f2fceedad29fbff10d0242d9210c3a7fa4c08670b24aa80858d",
+      "export_sha256": "5a63bc00f8666f2fceedad29fbff10d0242d9210c3a7fa4c08670b24aa80858d",
+      "bytes": 3966,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/features_v2.py",
+      "source_sha256": "81b714755ce09dae07734b5f81ea4c466d55765e783cd999b8eab536a3c60d3a",
+      "export_sha256": "81b714755ce09dae07734b5f81ea4c466d55765e783cd999b8eab536a3c60d3a",
+      "bytes": 11433,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/frozen_guard.py",
+      "source_sha256": "525b2b8773974b7e88908e91e2960657bc4bc9c3ba8e25f8eeac323deb8e18f9",
+      "export_sha256": "525b2b8773974b7e88908e91e2960657bc4bc9c3ba8e25f8eeac323deb8e18f9",
+      "bytes": 1950,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/history_index.py",
+      "source_sha256": "b9dfd9193c2433fa3aa1bbd3b1e9d172b3be55a49370b364812e8a82333b953f",
+      "export_sha256": "b9dfd9193c2433fa3aa1bbd3b1e9d172b3be55a49370b364812e8a82333b953f",
+      "bytes": 12266,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/input_contract.py",
+      "source_sha256": "a9db81a9c541f380ffb05be696f21f86cf1ac7d166460d6b35f41c588e2f5833",
+      "export_sha256": "a9db81a9c541f380ffb05be696f21f86cf1ac7d166460d6b35f41c588e2f5833",
+      "bytes": 7907,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/input_engine.py",
+      "source_sha256": "2d9bb6f63a701ed48c211e8ed66b93d1bf38e0bf8c99cab1ebe2f95c8d289dc3",
+      "export_sha256": "2d9bb6f63a701ed48c211e8ed66b93d1bf38e0bf8c99cab1ebe2f95c8d289dc3",
+      "bytes": 6740,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/input_routes.py",
+      "source_sha256": "c02168e2d5bf4f194b89b0ad1757c8ba2d746645ccedd2e901fcab9dc45c21f5",
+      "export_sha256": "c02168e2d5bf4f194b89b0ad1757c8ba2d746645ccedd2e901fcab9dc45c21f5",
+      "bytes": 4120,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/input_store.py",
+      "source_sha256": "9854a986f7fb82483898f35873e6cacf659c7183dfb987b85d5ea33b25b3dffc",
+      "export_sha256": "9854a986f7fb82483898f35873e6cacf659c7183dfb987b85d5ea33b25b3dffc",
+      "bytes": 4046,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/ipc.py",
+      "source_sha256": "72f70f925015cd03e813d3fe29f3f0e24cce12adedd8511fa8ba7d24b1cb7595",
+      "export_sha256": "72f70f925015cd03e813d3fe29f3f0e24cce12adedd8511fa8ba7d24b1cb7595",
+      "bytes": 4077,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/launcher.py",
+      "source_sha256": "251e067d320eb11752ab8c5f43241cfcea680a836348189798dbc36f7ad66c3d",
+      "export_sha256": "251e067d320eb11752ab8c5f43241cfcea680a836348189798dbc36f7ad66c3d",
+      "bytes": 11085,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/model_reading71.json",
+      "source_sha256": "2b190cb5947509cfb2ff2134fb733ee33d202a92ab97f48f633a3333ecfde685",
+      "export_sha256": "2b190cb5947509cfb2ff2134fb733ee33d202a92ab97f48f633a3333ecfde685",
+      "bytes": 773,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/narratives.py",
+      "source_sha256": "d78b323689131329369194a3339f27ea3aac7fdc8b861b613a87393488970307",
+      "export_sha256": "d78b323689131329369194a3339f27ea3aac7fdc8b861b613a87393488970307",
+      "bytes": 11088,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/presentation_zh.json",
+      "source_sha256": "98ce4d2aa281cb69c4434883a820564f1e2ba38c8cbd13670462016f667a5607",
+      "export_sha256": "98ce4d2aa281cb69c4434883a820564f1e2ba38c8cbd13670462016f667a5607",
+      "bytes": 36911,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/presentation_zh.py",
+      "source_sha256": "9e3760d425311fc7f0411c55373c456d00ff7bdcb5b61ce1c527fadbd2585ce9",
+      "export_sha256": "9e3760d425311fc7f0411c55373c456d00ff7bdcb5b61ce1c527fadbd2585ce9",
+      "bytes": 2570,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/reading71.py",
+      "source_sha256": "abb93a704f2f61f1ca36e76de9ed463594bdaa3aec6d46d007a91b00c65217a9",
+      "export_sha256": "abb93a704f2f61f1ca36e76de9ed463594bdaa3aec6d46d007a91b00c65217a9",
+      "bytes": 1721,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/reference.py",
+      "source_sha256": "fae91049cdabea34041032d578365c9de9b49a58aaaa78b6232b079c3779a67e",
+      "export_sha256": "fae91049cdabea34041032d578365c9de9b49a58aaaa78b6232b079c3779a67e",
+      "bytes": 8180,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/report71.py",
+      "source_sha256": "848c43e50b43e9c83aa005a22e8eda5c3c48a22939735fae3144e70b08b0a1f3",
+      "export_sha256": "848c43e50b43e9c83aa005a22e8eda5c3c48a22939735fae3144e70b08b0a1f3",
+      "bytes": 8885,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/reports.py",
+      "source_sha256": "0b508f40ca81755e17d87794f0b89558ea2b04eae1c71d2c8d481e3b19218072",
+      "export_sha256": "0b508f40ca81755e17d87794f0b89558ea2b04eae1c71d2c8d481e3b19218072",
+      "bytes": 12348,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/reviews.py",
+      "source_sha256": "46ab66621730ca1ac29f5e6cd4963edd2839f76ba1cd389051b69de44a1ae02a",
+      "export_sha256": "46ab66621730ca1ac29f5e6cd4963edd2839f76ba1cd389051b69de44a1ae02a",
+      "bytes": 6092,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/worker.py",
+      "source_sha256": "5aa8170242b64b66caf3aee6f29c2a6360bac13b9fb05722639abecd6865ca57",
+      "export_sha256": "5aa8170242b64b66caf3aee6f29c2a6360bac13b9fb05722639abecd6865ca57",
+      "bytes": 4480,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/worker_v2.py",
+      "source_sha256": "6ccd3e2ad3192501825914a8d61e663ed07a05e9e3261d07b5a600682d4ea107",
+      "export_sha256": "6ccd3e2ad3192501825914a8d61e663ed07a05e9e3261d07b5a600682d4ea107",
+      "bytes": 8706,
+      "transformation": null
+    },
+    {
+      "path": "src/credit_risk_workbench/workspace71.py",
+      "source_sha256": "a3c84ce6b3a835ed8348187066d74abce0ada6c8971c6a9acbd2e1d13e52ca21",
+      "export_sha256": "a3c84ce6b3a835ed8348187066d74abce0ada6c8971c6a9acbd2e1d13e52ca21",
+      "bytes": 13696,
+      "transformation": null
+    },
+    {
+      "path": "tests/test_history.py",
+      "source_sha256": "9604ba7fb6592b57f18e29742e0ddf1f953dc0e22d17b9dfe98012f312ba3833",
+      "export_sha256": "9604ba7fb6592b57f18e29742e0ddf1f953dc0e22d17b9dfe98012f312ba3833",
+      "bytes": 19412,
+      "transformation": null
+    },
+    {
+      "path": "tests/test_tree_explanation.py",
+      "source_sha256": "ee4d997c32e0e2634a51121aab94c0fd86622df43085b1ce5475458848e7bbe3",
+      "export_sha256": "ee4d997c32e0e2634a51121aab94c0fd86622df43085b1ce5475458848e7bbe3",
+      "bytes": 5103,
+      "transformation": null
+    },
+    {
+      "path": "tests/test_workbench_experiment_verifier.py",
+      "source_sha256": "ac49dec5a1625e5c3eda62316173936fbba018ec6a8912cf3dd2c541b72a4691",
+      "export_sha256": "ac49dec5a1625e5c3eda62316173936fbba018ec6a8912cf3dd2c541b72a4691",
+      "bytes": 1270,
+      "transformation": null
+    },
+    {
+      "path": "tests/test_workbench_features_v2.py",
+      "source_sha256": "f6ba72842e6f1478c5af876c71551d4fe99e0f67235d1dec0c38873aef26dd59",
+      "export_sha256": "f6ba72842e6f1478c5af876c71551d4fe99e0f67235d1dec0c38873aef26dd59",
+      "bytes": 10162,
+      "transformation": null
+    }
+  ]
+}

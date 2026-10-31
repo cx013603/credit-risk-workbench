@@ -1,0 +1,742 @@
+{
+  "fields": {
+    "NAME_CONTRACT_TYPE": {
+      "label": "申请合同类型",
+      "source": "申请基本资料",
+      "formula": "直接采用申请资料中保存的该项信息。",
+      "time": "申请时保存的资料；具体日历日期未提供。",
+      "unit": "类别"
+    },
+    "FLAG_OWN_CAR": {
+      "label": "是否有车",
+      "source": "申请基本资料",
+      "formula": "直接采用申请资料中保存的该项信息。",
+      "time": "申请时保存的资料；具体日历日期未提供。",
+      "unit": "是／否"
+    },
+    "FLAG_OWN_REALTY": {
+      "label": "是否有房产",
+      "source": "申请基本资料",
+      "formula": "直接采用申请资料中保存的该项信息。",
+      "time": "申请时保存的资料；具体日历日期未提供。",
+      "unit": "是／否"
+    },
+    "AMT_INCOME_TOTAL": {
+      "label": "申报收入",
+      "source": "申请基本资料",
+      "formula": "直接采用申请资料中保存的该项信息。",
+      "time": "申请时保存的资料；具体日历日期未提供。",
+      "unit": "来源金额单位（币种及收入周期未提供）"
+    },
+    "NAME_INCOME_TYPE": {
+      "label": "收入类型",
+      "source": "申请基本资料",
+      "formula": "直接采用申请资料中保存的该项信息。",
+      "time": "申请时保存的资料；具体日历日期未提供。",
+      "unit": "类别"
+    },
+    "NAME_HOUSING_TYPE": {
+      "label": "居住类型",
+      "source": "申请基本资料",
+      "formula": "直接采用居住类型；该类别不说明产权，房产情况另看是否有房产。",
+      "time": "申请时保存的资料；具体日历日期未提供。",
+      "unit": "类别"
+    },
+    "OCCUPATION_TYPE": {
+      "label": "职业",
+      "source": "申请基本资料",
+      "formula": "直接采用申请资料中保存的该项信息。",
+      "time": "申请时保存的资料；具体日历日期未提供。",
+      "unit": "类别"
+    },
+    "ORGANIZATION_TYPE": {
+      "label": "工作单位类型",
+      "source": "申请基本资料",
+      "formula": "直接采用申请资料中保存的该项信息。",
+      "time": "申请时保存的资料；具体日历日期未提供。",
+      "unit": "类别"
+    },
+    "FLAG_MOBIL": {
+      "label": "手机联系标记",
+      "source": "申请基本资料",
+      "formula": "直接采用申请资料中保存的该项信息。",
+      "time": "申请时保存的资料；具体日历日期未提供。",
+      "unit": "是／否标记"
+    },
+    "FLAG_EMP_PHONE": {
+      "label": "工作电话标记",
+      "source": "申请基本资料",
+      "formula": "直接采用申请资料中保存的该项信息。",
+      "time": "申请时保存的资料；具体日历日期未提供。",
+      "unit": "是／否标记"
+    },
+    "FLAG_WORK_PHONE": {
+      "label": "其他工作电话标记",
+      "source": "申请基本资料",
+      "formula": "直接采用申请资料中保存的该项信息。",
+      "time": "申请时保存的资料；具体日历日期未提供。",
+      "unit": "是／否标记"
+    },
+    "FLAG_CONT_MOBILE": {
+      "label": "手机可联系标记",
+      "source": "申请基本资料",
+      "formula": "直接采用申请资料中保存的该项信息。",
+      "time": "申请时保存的资料；具体日历日期未提供。",
+      "unit": "是／否标记"
+    },
+    "FLAG_PHONE": {
+      "label": "固定电话标记",
+      "source": "申请基本资料",
+      "formula": "直接采用申请资料中保存的该项信息。",
+      "time": "申请时保存的资料；具体日历日期未提供。",
+      "unit": "是／否标记"
+    },
+    "FLAG_EMAIL": {
+      "label": "邮箱标记",
+      "source": "申请基本资料",
+      "formula": "直接采用申请资料中保存的该项信息。",
+      "time": "申请时保存的资料；具体日历日期未提供。",
+      "unit": "是／否标记"
+    },
+    "WEEKDAY_APPR_PROCESS_START": {
+      "label": "申请星期",
+      "source": "申请基本资料",
+      "formula": "直接采用申请资料中保存的该项信息。",
+      "time": "申请时保存的资料；具体日历日期未提供。",
+      "unit": "类别"
+    },
+    "HOUR_APPR_PROCESS_START": {
+      "label": "申请时段",
+      "source": "申请基本资料",
+      "formula": "直接采用申请资料中保存的该项信息。",
+      "time": "申请时保存的资料；具体日历日期未提供。",
+      "unit": "小时（0～23）"
+    },
+    "BUREAU_ELIGIBLE_COUNT": {
+      "label": "合格征信借款记录数",
+      "source": "征信借款记录",
+      "formula": "统计符合时间条件的征信借款记录数。",
+      "time": "只统计借款日、更新日均早于本次申请的记录。",
+      "unit": "条"
+    },
+    "BUREAU_HAS_ELIGIBLE_HISTORY": {
+      "label": "有合格征信历史",
+      "source": "征信借款记录",
+      "formula": "有符合条件的征信记录记为是，否则记为否。",
+      "time": "只统计借款日、更新日均早于本次申请的记录。",
+      "unit": "是／否标记"
+    },
+    "BUREAU_DAYS_SINCE_MOST_RECENT": {
+      "label": "最近征信借款距申请天数",
+      "source": "征信借款记录",
+      "formula": "计算最近一笔合格征信借款距本次申请的天数。",
+      "time": "只统计借款日、更新日均早于本次申请的记录。",
+      "unit": "天"
+    },
+    "BUREAU_C1_COUNT": {
+      "label": "匿名币种一记录数",
+      "source": "征信借款记录",
+      "formula": "统计币种为匿名币种一的合格记录数。",
+      "time": "只统计借款日、更新日均早于本次申请的记录。",
+      "unit": "条"
+    },
+    "BUREAU_OTHER_CURRENCY_COUNT": {
+      "label": "其他币种记录数",
+      "source": "征信借款记录",
+      "formula": "统计币种已提供且不属于匿名币种一的合格记录数。",
+      "time": "只统计借款日、更新日均早于本次申请的记录。",
+      "unit": "条"
+    },
+    "BUREAU_CURRENCY_MISSING_COUNT": {
+      "label": "币种缺失记录数",
+      "source": "征信借款记录",
+      "formula": "统计未提供币种的合格记录数。",
+      "time": "只统计借款日、更新日均早于本次申请的记录。",
+      "unit": "条"
+    },
+    "BUREAU_C1_AMOUNT_AVAILABLE_COUNT": {
+      "label": "匿名币种一金额可用记录数",
+      "source": "征信借款记录",
+      "formula": "统计匿名币种一中金额已提供且不小于零的记录数。",
+      "time": "只统计借款日、更新日均早于本次申请的记录。",
+      "unit": "条"
+    },
+    "BUREAU_C1_AMOUNT_UNAVAILABLE_COUNT": {
+      "label": "匿名币种一金额不可用记录数",
+      "source": "征信借款记录",
+      "formula": "统计匿名币种一中金额缺失或为负数的记录数。",
+      "time": "只统计借款日、更新日均早于本次申请的记录。",
+      "unit": "条"
+    },
+    "BUREAU_C1_CREDIT_SUM": {
+      "label": "匿名币种一合格借款金额合计",
+      "source": "征信借款记录",
+      "formula": "对匿名币种一中非负且已提供的借款金额求和。",
+      "time": "只统计借款日、更新日均早于本次申请的记录。",
+      "unit": "匿名币种一的来源金额单位"
+    },
+    "BUREAU_C1_CREDIT_MEAN": {
+      "label": "匿名币种一合格借款金额均值",
+      "source": "征信借款记录",
+      "formula": "计算匿名币种一中非负且已提供借款金额的平均值。",
+      "time": "只统计借款日、更新日均早于本次申请的记录。",
+      "unit": "匿名币种一的来源金额单位"
+    },
+    "BUREAU_C1_CREDIT_MAX": {
+      "label": "匿名币种一合格借款金额最大值",
+      "source": "征信借款记录",
+      "formula": "取匿名币种一中非负且已提供借款金额的最大值。",
+      "time": "只统计借款日、更新日均早于本次申请的记录。",
+      "unit": "匿名币种一的来源金额单位"
+    },
+    "BUREAU_ACTIVE_COUNT": {
+      "label": "存续中状态记录数",
+      "source": "征信借款记录",
+      "formula": "统计借款状态为“存续中”的合格征信记录数。",
+      "time": "只统计借款日、更新日均早于本次申请的记录。",
+      "unit": "条"
+    },
+    "BUREAU_CLOSED_COUNT": {
+      "label": "已关闭状态记录数",
+      "source": "征信借款记录",
+      "formula": "统计借款状态为“已关闭”的合格征信记录数。 “已关闭”是来源状态，不能单凭此项认定已全额还清。",
+      "time": "只统计借款日、更新日均早于本次申请的记录。",
+      "unit": "条"
+    },
+    "BUREAU_SOLD_COUNT": {
+      "label": "已转让状态记录数",
+      "source": "征信借款记录",
+      "formula": "统计借款状态为“已转让”的合格征信记录数。",
+      "time": "只统计借款日、更新日均早于本次申请的记录。",
+      "unit": "条"
+    },
+    "BUREAU_BAD_DEBT_COUNT": {
+      "label": "坏账状态记录数",
+      "source": "征信借款记录",
+      "formula": "统计借款状态为“坏账”的合格征信记录数。",
+      "time": "只统计借款日、更新日均早于本次申请的记录。",
+      "unit": "条"
+    },
+    "BUREAU_OTHER_STATUS_COUNT": {
+      "label": "其他或缺失状态记录数",
+      "source": "征信借款记录",
+      "formula": "统计状态属于其他类别或未提供的记录数。",
+      "time": "只统计借款日、更新日均早于本次申请的记录。",
+      "unit": "条"
+    },
+    "BUREAU_ACTIVE_FRACTION": {
+      "label": "存续中状态比例",
+      "source": "征信借款记录",
+      "formula": "存续中借款记录数除以全部合格征信借款记录数。",
+      "time": "只统计借款日、更新日均早于本次申请的记录。",
+      "unit": "比例"
+    },
+    "PREV_ELIGIBLE_COUNT": {
+      "label": "合格历史申请记录数",
+      "source": "历史贷款申请",
+      "formula": "统计决策日在本次申请之前的历史申请数。",
+      "time": "只统计决策日早于本次申请的记录。",
+      "unit": "条"
+    },
+    "PREV_HAS_ELIGIBLE_HISTORY": {
+      "label": "有合格历史申请",
+      "source": "历史贷款申请",
+      "formula": "有符合时间条件的历史申请记为是，否则记为否。",
+      "time": "只统计决策日早于本次申请的记录。",
+      "unit": "是／否标记"
+    },
+    "PREV_DAYS_SINCE_MOST_RECENT": {
+      "label": "最近历史申请决策距本次申请天数",
+      "source": "历史贷款申请",
+      "formula": "计算最近一次合格历史申请决策距本次申请的天数。",
+      "time": "只统计决策日早于本次申请的记录。",
+      "unit": "天"
+    },
+    "PREV_CASH_COUNT": {
+      "label": "历史现金贷款记录数",
+      "source": "历史贷款申请",
+      "formula": "统计合同类型为“现金贷款”的合格历史申请数。",
+      "time": "只统计决策日早于本次申请的记录。",
+      "unit": "条"
+    },
+    "PREV_CONSUMER_COUNT": {
+      "label": "历史消费贷款记录数",
+      "source": "历史贷款申请",
+      "formula": "统计合同类型为“消费贷款”的合格历史申请数。",
+      "time": "只统计决策日早于本次申请的记录。",
+      "unit": "条"
+    },
+    "PREV_REVOLVING_COUNT": {
+      "label": "历史循环贷款记录数",
+      "source": "历史贷款申请",
+      "formula": "统计合同类型为“循环贷款”的合格历史申请数。",
+      "time": "只统计决策日早于本次申请的记录。",
+      "unit": "条"
+    },
+    "PREV_OTHER_CONTRACT_COUNT": {
+      "label": "历史其他或缺失合同记录数",
+      "source": "历史贷款申请",
+      "formula": "统计合同类型属于其他类别或未提供的历史申请数。",
+      "time": "只统计决策日早于本次申请的记录。",
+      "unit": "条"
+    },
+    "CC_LOAN_COUNT": {
+      "label": "信用卡：合格月记录借款数",
+      "source": "信用卡月度账单",
+      "formula": "按借款去重后统计笔数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "笔借款"
+    },
+    "CC_MONTH_COUNT": {
+      "label": "信用卡：合格借款月记录数",
+      "source": "信用卡月度账单",
+      "formula": "汇总各笔借款的合格月度记录数，同一月多笔借款分别计数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "条借款月记录"
+    },
+    "CC_MONTHS_SINCE_RECENT": {
+      "label": "信用卡：最近合格快照距申请月数",
+      "source": "信用卡月度账单",
+      "formula": "计算最近一条合格月度记录距本次申请的月数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "个月"
+    },
+    "CC_MAX_DPD": {
+      "label": "信用卡：合格月最大逾期天数",
+      "source": "信用卡月度账单",
+      "formula": "取合格月度记录中已提供、非负整数逾期天数的最大值。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "天"
+    },
+    "CC_POSITIVE_DPD_FRACTION": {
+      "label": "信用卡：逾期天数大于0的借款月比例",
+      "source": "信用卡月度账单",
+      "formula": "逾期天数大于零的记录数，除以逾期天数有效且已提供的记录数；按记录计数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "比例"
+    },
+    "CC_DPD_UNKNOWN_COUNT": {
+      "label": "信用卡：逾期天数缺失或无效记录数",
+      "source": "信用卡月度账单",
+      "formula": "合格记录中，逾期天数缺失或不符合非负整数要求的记录数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "条记录"
+    },
+    "CC_LAST6_MONTH_COUNT": {
+      "label": "信用卡：申请前6个月借款月记录数",
+      "source": "信用卡月度账单",
+      "formula": "统计本次申请前第一个月至第六个月的合格月度记录数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "条借款月记录"
+    },
+    "CC_LAST12_MONTH_COUNT": {
+      "label": "信用卡：申请前12个月借款月记录数",
+      "source": "信用卡月度账单",
+      "formula": "统计本次申请前第一个月至第十二个月的合格月度记录数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "条借款月记录"
+    },
+    "POS_LOAN_COUNT": {
+      "label": "消费分期：合格月记录借款数",
+      "source": "消费分期月度账单",
+      "formula": "按借款去重后统计笔数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "笔借款"
+    },
+    "POS_MONTH_COUNT": {
+      "label": "消费分期：合格借款月记录数",
+      "source": "消费分期月度账单",
+      "formula": "汇总各笔借款的合格月度记录数，同一月多笔借款分别计数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "条借款月记录"
+    },
+    "POS_MONTHS_SINCE_RECENT": {
+      "label": "消费分期：最近合格快照距申请月数",
+      "source": "消费分期月度账单",
+      "formula": "计算最近一条合格月度记录距本次申请的月数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "个月"
+    },
+    "POS_MAX_DPD": {
+      "label": "消费分期：合格月最大逾期天数",
+      "source": "消费分期月度账单",
+      "formula": "取合格月度记录中已提供、非负整数逾期天数的最大值。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "天"
+    },
+    "POS_POSITIVE_DPD_FRACTION": {
+      "label": "消费分期：逾期天数大于0的借款月比例",
+      "source": "消费分期月度账单",
+      "formula": "逾期天数大于零的记录数，除以逾期天数有效且已提供的记录数；按记录计数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "比例"
+    },
+    "POS_DPD_UNKNOWN_COUNT": {
+      "label": "消费分期：逾期天数缺失或无效记录数",
+      "source": "消费分期月度账单",
+      "formula": "合格记录中，逾期天数缺失或不符合非负整数要求的记录数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "条记录"
+    },
+    "POS_LAST6_MONTH_COUNT": {
+      "label": "消费分期：申请前6个月借款月记录数",
+      "source": "消费分期月度账单",
+      "formula": "统计本次申请前第一个月至第六个月的合格月度记录数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "条借款月记录"
+    },
+    "POS_LAST12_MONTH_COUNT": {
+      "label": "消费分期：申请前12个月借款月记录数",
+      "source": "消费分期月度账单",
+      "formula": "统计本次申请前第一个月至第十二个月的合格月度记录数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "条借款月记录"
+    },
+    "BB_LOAN_COUNT": {
+      "label": "征信月记录：合格征信月记录借款数",
+      "source": "征信月度状态",
+      "formula": "按借款去重后统计笔数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "笔借款"
+    },
+    "BB_MONTH_COUNT": {
+      "label": "征信月记录：合格征信借款月记录数",
+      "source": "征信月度状态",
+      "formula": "汇总各笔征信借款的合格月度记录数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "条借款月记录"
+    },
+    "BB_MONTHS_SINCE_RECENT": {
+      "label": "征信月记录：最近征信快照距申请月数",
+      "source": "征信月度状态",
+      "formula": "计算最近一条合格月度记录距本次申请的月数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "个月"
+    },
+    "BB_DELINQUENT_STATUS_FRACTION": {
+      "label": "征信月记录：有逾期状态的活动月比例",
+      "source": "征信月度状态",
+      "formula": "有逾期状态的月记录数除以状态明确的活动月记录数；已关闭和未知状态不计入分母。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "比例"
+    },
+    "BB_UNKNOWN_STATUS_FRACTION": {
+      "label": "征信月记录：未知征信月状态比例",
+      "source": "征信月度状态",
+      "formula": "状态未知、缺失或无法识别的月记录数除以全部合格月记录数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "比例"
+    },
+    "BB_CLOSED_STATUS_FRACTION": {
+      "label": "征信月记录：已关闭月记录比例",
+      "source": "征信月度状态",
+      "formula": "标记为已关闭的月记录数除以全部合格月记录数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "比例"
+    },
+    "BB_LAST12_MONTH_COUNT": {
+      "label": "征信月记录：申请前12个月征信借款月记录数",
+      "source": "征信月度状态",
+      "formula": "统计本次申请前第一个月至第十二个月的合格月度记录数。",
+      "time": "按本次申请与所属借款准确匹配，只统计申请前的月度记录；所属借款也须符合申请前时间条件。",
+      "unit": "条借款月记录"
+    },
+    "INST_LOAN_COUNT": {
+      "label": "分期还款：合格支付事件借款数",
+      "source": "分期还款记录",
+      "formula": "统计同时有申请前应付日和支付日记录的借款笔数。",
+      "time": "只统计应付日和已知支付日均早于本次申请、且所属借款符合时间条件的记录；分期组另核对计划版本。",
+      "unit": "笔借款"
+    },
+    "INST_PAYMENT_RECORD_COUNT": {
+      "label": "分期还款：合格支付事件记录数",
+      "source": "分期还款记录",
+      "formula": "汇总合格支付记录数；同一期可能有多条支付记录，因此不等于分期期数。",
+      "time": "只统计应付日和已知支付日均早于本次申请、且所属借款符合时间条件的记录；分期组另核对计划版本。",
+      "unit": "条支付记录"
+    },
+    "INST_DAYS_SINCE_RECENT_PAYMENT": {
+      "label": "分期还款：最近已知支付距申请天数",
+      "source": "分期还款记录",
+      "formula": "计算最近一次已知合格支付距本次申请的天数。",
+      "time": "只统计应付日和已知支付日均早于本次申请、且所属借款符合时间条件的记录；分期组另核对计划版本。",
+      "unit": "天"
+    },
+    "INST_EXCLUDED_CALENDAR_LOAN_COUNT": {
+      "label": "分期还款：计划版本无法唯一确认的借款数",
+      "source": "分期还款记录",
+      "formula": "统计虽有合格支付记录，但分期计划版本未能唯一确认的借款笔数；这些借款不参与分期组统计。",
+      "time": "只统计应付日和已知支付日均早于本次申请、且所属借款符合时间条件的记录；分期组另核对计划版本。",
+      "unit": "笔借款"
+    },
+    "INST_SINGLE_CALENDAR_GROUP_COUNT": {
+      "label": "分期还款：计划版本唯一的分期组数",
+      "source": "分期还款记录",
+      "formula": "仅使用分期计划版本唯一且有效的借款，按计划版本、期次和应付日分组后计数。",
+      "time": "只统计应付日和已知支付日均早于本次申请、且所属借款符合时间条件的记录；分期组另核对计划版本。",
+      "unit": "个分期组"
+    },
+    "INST_LATE_PAYMENT_GROUP_FRACTION": {
+      "label": "分期还款：含晚于应付日支付事件的组比例",
+      "source": "分期还款记录",
+      "formula": "最后一笔已知支付晚于应付日的分期组数除以合格分期组数；不能据此判断违约或已全额还清。",
+      "time": "只统计应付日和已知支付日均早于本次申请、且所属借款符合时间条件的记录；分期组另核对计划版本。",
+      "unit": "比例"
+    },
+    "INST_MAX_PAYMENT_DELAY_DAYS": {
+      "label": "分期还款：已知支付晚于应付日的最大天数",
+      "source": "分期还款记录",
+      "formula": "各合格分期组最后已知支付日减应付日，负值按零计，再取最大值。",
+      "time": "只统计应付日和已知支付日均早于本次申请、且所属借款符合时间条件的记录；分期组另核对计划版本。",
+      "unit": "天"
+    },
+    "INST_MULTI_PAYMENT_GROUP_FRACTION": {
+      "label": "分期还款：含多条支付记录的组比例",
+      "source": "分期还款记录",
+      "formula": "包含多条合格支付记录的分期组数除以全部合格分期组数；不按支付记录重复累计应付金额。",
+      "time": "只统计应付日和已知支付日均早于本次申请、且所属借款符合时间条件的记录；分期组另核对计划版本。",
+      "unit": "比例"
+    }
+  },
+  "categories": {
+    "Laborers": "体力劳动人员",
+    "Core staff": "核心业务人员",
+    "Accountants": "会计人员",
+    "Managers": "管理人员",
+    "Drivers": "驾驶员",
+    "Sales staff": "销售人员",
+    "Cleaning staff": "清洁人员",
+    "Cooking staff": "餐饮人员",
+    "Private service staff": "私人服务人员",
+    "Medicine staff": "医务人员",
+    "Security staff": "安保人员",
+    "High skill tech staff": "高级技术人员",
+    "Waiters/barmen staff": "餐饮服务人员",
+    "Low-skill Laborers": "初级体力劳动人员",
+    "Realty agents": "房产经纪人员",
+    "Secretaries": "秘书",
+    "IT staff": "信息技术人员",
+    "HR staff": "人力资源人员",
+    "Cash loans": "现金贷款",
+    "Consumer loans": "消费贷款",
+    "Revolving loans": "循环贷款",
+    "Active": "存续中",
+    "Closed": "已关闭",
+    "Sold": "已转让",
+    "Bad debt": "坏账",
+    "Approved": "已批准",
+    "Refused": "已拒绝",
+    "Canceled": "已取消",
+    "Unused offer": "未使用的授信",
+    "Working": "受雇工作",
+    "Commercial associate": "商业从业者",
+    "Pensioner": "退休人员",
+    "State servant": "公共部门雇员",
+    "Unemployed": "待业",
+    "Student": "学生",
+    "Businessman": "企业经营者",
+    "Maternity leave": "产假期间",
+    "House / apartment": "住宅／公寓",
+    "Rented apartment": "租赁公寓",
+    "With parents": "与父母同住",
+    "Municipal apartment": "公有住房",
+    "Office apartment": "单位住房",
+    "Co-op apartment": "合作住房",
+    "Business Entity Type 1": "企业类别一（匿名分类）",
+    "Business Entity Type 2": "企业类别二（匿名分类）",
+    "Business Entity Type 3": "企业类别三（匿名分类）",
+    "Self-employed": "个体经营",
+    "Other": "其他",
+    "XNA": "未说明／不适用",
+    "XAP": "不适用",
+    "Unknown": "未知",
+    "Y": "是",
+    "N": "否",
+    "MONDAY": "星期一",
+    "TUESDAY": "星期二",
+    "WEDNESDAY": "星期三",
+    "THURSDAY": "星期四",
+    "FRIDAY": "星期五",
+    "SATURDAY": "星期六",
+    "SUNDAY": "星期日",
+    "School": "学校",
+    "University": "高校",
+    "Government": "政府机构",
+    "Medicine": "医疗机构",
+    "Bank": "银行",
+    "Insurance": "保险机构",
+    "Police": "公安机构",
+    "Military": "军队",
+    "Kindergarten": "幼儿园",
+    "Restaurant": "餐饮企业",
+    "Hotel": "酒店",
+    "Agriculture": "农业",
+    "Construction": "建筑业",
+    "Housing": "住房服务",
+    "Electricity": "电力",
+    "Telecom": "通信",
+    "Security": "安保服务",
+    "Security Ministries": "安全管理部门",
+    "Postal": "邮政",
+    "Services": "服务业",
+    "Legal Services": "法律服务",
+    "Emergency": "应急服务",
+    "Religion": "宗教机构",
+    "Culture": "文化机构",
+    "Mobile": "移动通信",
+    "Advertising": "广告业",
+    "Cleaning": "清洁服务",
+    "Realtor": "房地产服务",
+    "Industry: type 1": "工业类别一",
+    "Industry: type 2": "工业类别二",
+    "Industry: type 3": "工业类别三",
+    "Industry: type 4": "工业类别四",
+    "Industry: type 5": "工业类别五",
+    "Industry: type 6": "工业类别六",
+    "Industry: type 7": "工业类别七",
+    "Industry: type 8": "工业类别八",
+    "Industry: type 9": "工业类别九",
+    "Industry: type 10": "工业类别十",
+    "Industry: type 11": "工业类别十一",
+    "Industry: type 12": "工业类别十二",
+    "Industry: type 13": "工业类别十三",
+    "Trade: type 1": "贸易类别一",
+    "Trade: type 2": "贸易类别二",
+    "Trade: type 3": "贸易类别三",
+    "Trade: type 4": "贸易类别四",
+    "Trade: type 5": "贸易类别五",
+    "Trade: type 6": "贸易类别六",
+    "Trade: type 7": "贸易类别七",
+    "Transport: type 1": "运输类别一",
+    "Transport: type 2": "运输类别二",
+    "Transport: type 3": "运输类别三",
+    "Transport: type 4": "运输类别四",
+    "currency 1": "匿名币种一",
+    "currency 2": "匿名币种二",
+    "currency 3": "匿名币种三",
+    "currency 4": "匿名币种四"
+  },
+  "sources": {
+    "application_train.csv": "申请基本资料",
+    "application_test.csv": "申请基本资料",
+    "bureau.csv": "征信借款记录",
+    "previous_application.csv": "历史贷款申请",
+    "credit_card_balance.csv": "信用卡月度账单",
+    "POS_CASH_balance.csv": "消费分期月度账单",
+    "bureau_balance.csv": "征信月度状态",
+    "installments_payments.csv": "分期还款记录"
+  },
+  "units": {
+    "category": "类别",
+    "binary_category_Y_N": "是／否",
+    "binary": "是／否标记",
+    "records": "条",
+    "days": "天",
+    "fraction": "比例",
+    "source_amount_currency_and_period_unverified": "来源金额单位（币种及收入周期未提供）",
+    "anonymous_currency_1_source_scale": "匿名币种一的来源金额单位",
+    "hour": "小时",
+    "hour_0_23": "小时（0～23）",
+    "loans": "笔借款",
+    "loan-month observations": "条借款月记录",
+    "relative months": "个月",
+    "observations": "条记录",
+    "payment events": "条支付记录",
+    "calendar groups": "个分期组",
+    "groups": "组",
+    "payment observations": "条支付记录",
+    "relative days": "天",
+    "calendar-installment groups": "个分期组"
+  },
+  "raw": {
+    "SK_ID_CURR": "申请编号",
+    "SK_ID_PREV": "历史借款编号",
+    "SK_ID_BUREAU": "征信借款编号",
+    "DAYS_CREDIT": "借款距申请日天数",
+    "DAYS_CREDIT_UPDATE": "更新距申请日天数",
+    "CREDIT_ACTIVE": "借款状态",
+    "CREDIT_CURRENCY": "币种",
+    "AMT_CREDIT_SUM": "借款金额",
+    "DAYS_DECISION": "决策距申请日天数",
+    "MONTHS_BALANCE": "账单距申请月数",
+    "SK_DPD": "记录中的逾期天数",
+    "STATUS": "月度状态",
+    "NUM_INSTALMENT_VERSION": "分期计划版本",
+    "NUM_INSTALMENT_NUMBER": "分期期次",
+    "DAYS_INSTALMENT": "应付日距申请日天数",
+    "DAYS_ENTRY_PAYMENT": "支付日距申请日天数",
+    "AMT_INSTALMENT": "应付金额",
+    "AMT_PAYMENT": "已付金额",
+    "NAME_CONTRACT_TYPE": "申请合同类型",
+    "FLAG_OWN_CAR": "是否有车",
+    "FLAG_OWN_REALTY": "是否有房产",
+    "AMT_INCOME_TOTAL": "申报收入",
+    "NAME_INCOME_TYPE": "收入类型",
+    "NAME_HOUSING_TYPE": "居住类型",
+    "OCCUPATION_TYPE": "职业",
+    "ORGANIZATION_TYPE": "工作单位类型",
+    "FLAG_MOBIL": "手机联系标记",
+    "FLAG_EMP_PHONE": "工作电话标记",
+    "FLAG_WORK_PHONE": "其他工作电话标记",
+    "FLAG_CONT_MOBILE": "手机可联系标记",
+    "FLAG_PHONE": "固定电话标记",
+    "FLAG_EMAIL": "邮箱标记",
+    "WEEKDAY_APPR_PROCESS_START": "申请星期",
+    "HOUR_APPR_PROCESS_START": "申请时段",
+    "BUREAU_ELIGIBLE_COUNT": "合格征信借款记录数",
+    "BUREAU_HAS_ELIGIBLE_HISTORY": "有合格征信历史",
+    "BUREAU_DAYS_SINCE_MOST_RECENT": "最近征信借款距申请天数",
+    "BUREAU_C1_COUNT": "匿名币种一记录数",
+    "BUREAU_OTHER_CURRENCY_COUNT": "其他币种记录数",
+    "BUREAU_CURRENCY_MISSING_COUNT": "币种缺失记录数",
+    "BUREAU_C1_AMOUNT_AVAILABLE_COUNT": "匿名币种一金额可用记录数",
+    "BUREAU_C1_AMOUNT_UNAVAILABLE_COUNT": "匿名币种一金额不可用记录数",
+    "BUREAU_C1_CREDIT_SUM": "匿名币种一合格借款金额合计",
+    "BUREAU_C1_CREDIT_MEAN": "匿名币种一合格借款金额均值",
+    "BUREAU_C1_CREDIT_MAX": "匿名币种一合格借款金额最大值",
+    "BUREAU_ACTIVE_COUNT": "存续中状态记录数",
+    "BUREAU_CLOSED_COUNT": "已关闭状态记录数",
+    "BUREAU_SOLD_COUNT": "已转让状态记录数",
+    "BUREAU_BAD_DEBT_COUNT": "坏账状态记录数",
+    "BUREAU_OTHER_STATUS_COUNT": "其他或缺失状态记录数",
+    "BUREAU_ACTIVE_FRACTION": "存续中状态比例",
+    "PREV_ELIGIBLE_COUNT": "合格历史申请记录数",
+    "PREV_HAS_ELIGIBLE_HISTORY": "有合格历史申请",
+    "PREV_DAYS_SINCE_MOST_RECENT": "最近历史申请决策距本次申请天数",
+    "PREV_CASH_COUNT": "历史现金贷款记录数",
+    "PREV_CONSUMER_COUNT": "历史消费贷款记录数",
+    "PREV_REVOLVING_COUNT": "历史循环贷款记录数",
+    "PREV_OTHER_CONTRACT_COUNT": "历史其他或缺失合同记录数",
+    "CC_LOAN_COUNT": "信用卡：合格月记录借款数",
+    "CC_MONTH_COUNT": "信用卡：合格借款月记录数",
+    "CC_MONTHS_SINCE_RECENT": "信用卡：最近合格快照距申请月数",
+    "CC_MAX_DPD": "信用卡：合格月最大逾期天数",
+    "CC_POSITIVE_DPD_FRACTION": "信用卡：逾期天数大于0的借款月比例",
+    "CC_DPD_UNKNOWN_COUNT": "信用卡：逾期天数缺失或无效记录数",
+    "CC_LAST6_MONTH_COUNT": "信用卡：申请前6个月借款月记录数",
+    "CC_LAST12_MONTH_COUNT": "信用卡：申请前12个月借款月记录数",
+    "POS_LOAN_COUNT": "消费分期：合格月记录借款数",
+    "POS_MONTH_COUNT": "消费分期：合格借款月记录数",
+    "POS_MONTHS_SINCE_RECENT": "消费分期：最近合格快照距申请月数",
+    "POS_MAX_DPD": "消费分期：合格月最大逾期天数",
+    "POS_POSITIVE_DPD_FRACTION": "消费分期：逾期天数大于0的借款月比例",
+    "POS_DPD_UNKNOWN_COUNT": "消费分期：逾期天数缺失或无效记录数",
+    "POS_LAST6_MONTH_COUNT": "消费分期：申请前6个月借款月记录数",
+    "POS_LAST12_MONTH_COUNT": "消费分期：申请前12个月借款月记录数",
+    "BB_LOAN_COUNT": "征信月记录：合格征信月记录借款数",
+    "BB_MONTH_COUNT": "征信月记录：合格征信借款月记录数",
+    "BB_MONTHS_SINCE_RECENT": "征信月记录：最近征信快照距申请月数",
+    "BB_DELINQUENT_STATUS_FRACTION": "征信月记录：有逾期状态的活动月比例",
+    "BB_UNKNOWN_STATUS_FRACTION": "征信月记录：未知征信月状态比例",
+    "BB_CLOSED_STATUS_FRACTION": "征信月记录：已关闭月记录比例",
+    "BB_LAST12_MONTH_COUNT": "征信月记录：申请前12个月征信借款月记录数",
+    "INST_LOAN_COUNT": "分期还款：合格支付事件借款数",
+    "INST_PAYMENT_RECORD_COUNT": "分期还款：合格支付事件记录数",
+    "INST_DAYS_SINCE_RECENT_PAYMENT": "分期还款：最近已知支付距申请天数",
+    "INST_EXCLUDED_CALENDAR_LOAN_COUNT": "分期还款：计划版本无法唯一确认的借款数",
+    "INST_SINGLE_CALENDAR_GROUP_COUNT": "分期还款：计划版本唯一的分期组数",
+    "INST_LATE_PAYMENT_GROUP_FRACTION": "分期还款：含晚于应付日支付事件的组比例",
+    "INST_MAX_PAYMENT_DELAY_DAYS": "分期还款：已知支付晚于应付日的最大天数",
+    "INST_MULTI_PAYMENT_GROUP_FRACTION": "分期还款：含多条支付记录的组比例"
+  }
+}

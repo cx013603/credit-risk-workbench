@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "policy_version": "history_before_day_zero_currency_separate_v1",
+  "artifact_dir": "data/interim/history_features",
+  "duckdb_memory_limit": "512MB",
+  "duckdb_threads": 1,
+  "row_group_size": 65536,
+  "case_ids": [100003],
+  "manual_absolute_tolerance": 1e-9,
+  "manual_relative_tolerance": 1e-12,
+  "sql_files": ["sql/02_bureau_features.sql", "sql/03_previous_features.sql", "sql/04_join_history.sql"]
+}

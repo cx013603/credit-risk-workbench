@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-31",
+  "passed": true,
+  "synthetic_tests": 55,
+  "examples": [
+    {
+      "entry": "examples/sql_walkthrough.py",
+      "returncode": 0,
+      "seconds": 0.867,
+      "log_sha256": "e81772de8ce6edffeadbd90e31ddb6be546b548088a53ead69a613e80a089c3c"
+    },
+    {
+      "entry": "examples/metrics_walkthrough.py",
+      "returncode": 0,
+      "seconds": 0.235,
+      "log_sha256": "c1b3c9b018296be6869812591acaab84dae3eaa3a9dc07731fdf5cdca99d9880"
+    },
+    {
+      "entry": "examples/run_checks.py",
+      "returncode": 0,
+      "seconds": 27.932,
+      "log_sha256": "7b3d2efef5cb52aa239dcd861d4872506a45e11e2af589591db2ea061a228ee7"
+    }
+  ],
+  "python": "3.14.5",
+  "platform": "Windows",
+  "environment": {
+    "duckdb": "2.0.0",
+    "pyarrow": "26.0.0",
+    "scikit-learn": "1.9.1"
+  },
+  "environment_scope": "existing local project environment; short independent snapshot directory",
+  "fresh_dependency_install_verified": false,
+  "hosted_CI_verified": false,
+  "new_fits": 0,
+  "formal_data_read": false,
+  "service_start_stop": false,
+  "limitations": [
+    "Windows requires short paths for the original temporary Parquet file names",
+    "full platform runtime assets are not distributed"
+  ]
+}

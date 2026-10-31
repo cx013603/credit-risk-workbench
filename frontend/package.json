@@ -1,0 +1,10 @@
+{
+  "name": "credit-workbench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"build": "tsc --noEmit && vite build", "dev": "vite --host 127.0.0.1"},
+  "engines": {"node": ">=24.15.0"},
+  "dependencies": {"react": "19.3.1", "react-dom": "19.3.1", "antd": "6.6.8", "echarts": "6.1.0"},
+  "devDependencies": {"typescript": "7.0.2", "vite": "8.3.5", "@vitejs/plugin-react": "6.1.2", "@types/react": "19.2.14", "@types/react-dom": "19.2.3"}
+}

@@ -1,0 +1,4 @@
+# E02 数据读写最小环境；Windows x64 / Python 3.14.5 实测。
+# 不包含建模、页面或 Spark；安装包来源和 wheel 哈希见依赖证据。
+duckdb==2.0.0
+pyarrow==26.0.0

@@ -1,0 +1,7 @@
+export type Population='labeled'|'unlabeled';
+export type Identity={population:Population;application_id:number};
+export type Fact={fact_id:string;label:string;raw_value:string|number|null;unit:string;value_kind:string;missing_state:string;source:{table:string;record_key_kind:string;detail_status:string};rule:{formula:string;time_rule:string;version:string};encoding_category_status:string};
+export type Contribution={fact_id:string;contribution_log_odds:number};
+export type CaseData={case_key:Identity;case_revision:string;sample_use:'train'|'validation'|'unlabeled_scoring';versions:Record<string,string>;profile:{scope:string;facts:Fact[];additional_application_fields_status:string};model_outputs:{recommended:string;tree:{version:string;run_id:string;probability:number;threshold:number;risk_flag:boolean;threshold_scope:string};logistic:{version:string;run_id:string;probability:number};scorecard:{version:string;run_id:string;probability:number;score:number;score_unit:string}};explanation:{method:string;unit:string;base_log_odds:number;raw_score:number;contribution_sum:number;terms:Contribution[];feature_count:number};availability:Record<string,string>;limits:string[]};
+export type Envelope={schema_version:string;request_id:string;selection_token:string|null;status:string;payload:unknown;error:null|{code:string;message:string;retryable:boolean}};
+export type CaseState={status:'idle'|'loading'|'ready'|'failed'|'cancelled';identity:Identity|null;data:CaseData|null;error:string|null;errorCode?:string;token:string};

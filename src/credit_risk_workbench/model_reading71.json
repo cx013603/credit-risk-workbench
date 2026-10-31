@@ -1,0 +1,21 @@
+{
+  "version": "model_reading71_v1",
+  "model_sha256": "448c91f5a12f4241ce5d9d1190d628073d05116c5cf039806ffc7e24e3084442",
+  "threshold": 0.0764883811769358,
+  "rows": 46127,
+  "events": 3724,
+  "roc_auc": 0.6968356577429402,
+  "ks": 0.29461534917135573,
+  "confusion": {
+    "TP": 2460,
+    "FP": 15518,
+    "TN": 26885,
+    "FN": 1264
+  },
+  "validation_used_for_exploration": true,
+  "independent_final_test": false,
+  "sources": {
+    "reports/workbench/step13-20261029/experiment01/extended71-candidate-bundle.json": "5aa209abcf2dd7002f0581e2f4b9060345160acc967690c36093becb128fe314",
+    "reports/workbench/step13-20261029/experiment01/32-final-extended71-c3/result.json": "db48ba978ebc74335cccbd1a2141dd17b297100ef574d7a1723ff1105616e393"
+  }
+}
